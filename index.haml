@@ -73,213 +73,260 @@
           %footer.notes
             Giới thiệu đã sử dụng một số sản phẩm của Mozilla từ lâu; bắt đầu tham gia đóng góp cho Mozilla vào tháng 6/2012.
 
-    #agenda.slide
+    #mozilla-intro.shout.slide
       %div
         %section
           %header
-            %h2 Giới thiệu
-          %img.right{:width => '400px', :src => "pictures/welcome.png"}
-            %ul
-              %li Mozilla là gì?
+            %h2
+              Mozilla
+              %br là gì?
+          %footer.notes
+
+    #morethanfirefox.slide
+      %div
+        %section
+          %header
+            %h2
+              Mozilla - Không chỉ là Firefox
+          %img.middle{:src => "pictures/mozillamore.png"}
+          %footer.notes
+  
+          
+    #mozilla-community.slide.cover.w
+      %div
+        %section
+          %header
+            %h2
+              Mozilla - Một cộng đồng
+          %img.middle{:src => "pictures/hackday.jpg"}
+          %footer.notes
+
+    #firefoxos-why.shout.slide
+      %div
+        %section
+          %header
+            %h2
+              Firefox OS
+              %br tại sao?
+          %footer.notes
+
+    #firefoxos-mozilla-why.slide
+      %div
+        %section
+          %header
+            %h2
+              Firefox OS: với Mozilla
+          %ul
+            %li Cần sự thay đổi trong kỷ nguyên Di động
+            %li Web - Nền tảng phát triển 15 năm qua
+          %footer.notes
+
+    #firefoxos-users-why.slide
+      %div
+        %section
+          %header
+            %h2
+              Firefox OS: với người dùng
+          %ul
+            %li App: mua một lần, chạy "khắp nơi"
+            %li Identity: "Tôi là tôi" ở bất cứ đâu
+            %li Tìm kiếm app bằng nhiều phương tiện
+            %li Quản lý App receipt dễ dàng, thuận tiện
+          %footer.notes
+
+  #firefoxos-developers-why.slide
+    %div
+      %section
+        %header
+          %h2
+            Firefox OS: với người phát triển
+        %ul
+          %li App: code một lần, chạy "khắp nơi"
+          %li Submit và quản lý app dễ dàng
+          %li Có công cụ phát triển tốt
+          %li Tự do phát triền không bị cản trở          
+        %footer.notes           
+          
+  #firefoxos-intro.shout.slide
+    %div
+      %section
+        %header
+          %h2
+            Firefox OS
+            %br là gì?
+        %footer.notes
+          Phát Video demo Firefox OS
+
+  #firefox-os-components-detail.slide.cover.w
+    %div
+      %section
+        %img.middle{:alt => "Gonk, Gecko and Gaia", :src => "pictures/componentsflame.jpg"}
           %small.credits
-            %a{:href => "http://en.wikipedia.org/wiki/File:Masswelcomemat.jpg"} Nguồn ảnh: Wikipedia
-          %footer.notes
-            Giới thiệu qua một chút về các chủ đề chính.
+            %a{:href => "http://www.flickr.com/photos/alesadam/3869366195/"} Photo by Alesa Dam
+        %footer.notes
+          Firefox OS is build with three components:
+          Gonk is the Linux layer talking to the hardware (the same Android uses)
+          Gecko is the rendering and JavaScript engine (same as Firefox) and
+          Gaia is the interface - everything you see - written in HTML5
 
-    #mozilla-intro.slide
-      %div
-        %section
-          %header
-            %h2
-              Mozilla là gì?
-          %footer.notes
+  #hardware-lockout.slide.cover.w
+    %div
+      %section
+        %header
+          %h2
+            Rào cản phần cứng
+        %img.middle{:alt => "Rào cản phần cứng", :src => "pictures/lockout.jpg"}  
+          %small.credits
+            %a{:href => "http://www.flickr.com/photos/old_sarge/100926333/"} Photo by Doug Geisler
+        %footer.notes
 
-    #firefoxos-why.slide
-      %div
-        %section
-          %header
-            %h2
-              Firefox OS, tại sao?
-          %footer.notes
+  #wepapis.slide
+    %div
+      %section
+        %header
+          %h2
+            Web Api
+        %img.middle{:alt => "Phần cứng, Web API và trạng thái hiện tại", :src => "pictures/hardware-blowup.png"}
+        %p.demourl
+          %a{:href => "http://arewemobileyet.com"} http://arewemobileyet.com
+        %footer.notes
 
-    #firefoxos-about-mozilla.slide
-      %div
-        %section
-          %header
-            %h2
-              Firefox OS:
-          %h3
-            Về phía Mozilla
-          %footer.notes
+  #openwebdevice.slide
+    %div
+      %section
+        %header
+          %h2
+            Open Web Device
+        %img.middle{:alt => "", :src => "pictures/openwebdevice.jpg"}
+        %p.demourl
+          %a{:href => "http://openwebdevice.com"} http://openwebdevice.com
+        %footer.notes    
 
-    #firefoxos-about-users.slide
-      %div
-        %section
-          %header
-            %h2
-              Firefox OS:
-          %h3
-            Về phía người dùng
-          %footer.notes
+  #keon.slide
+    %div
+      %section
+        %header
+          %h2
+            Keon:
+            %br Thiết bị chạy Firefox OS đầu tiên
+        %center   
+          %img{:width => "70%", :alt => "", :src => "pictures/keon.png"}
+        %footer.notes
 
-    #firefoxos-about-developers.slide
-      %div
-        %section
-          %header
-            %h2
-              Firefox OS:
-          %h3
-            Về phía người phát triển
-          %footer.notes           
-              
-    #firefoxos-intro.slide
-      %div
-        %section
-          %header
-            %h2
-              Firefox OS là gì?
-          %footer.notes
-            Phát Video demo Firefox OS
+  #apps-concept.slide.cover.w
+    %div
+      %section
+        %header
+          %h2
+            Firefox OS Apps
+        %img.middle{:src => "pictures/uxconcept.jpg"}
+        %footer.notes
+  
+  #apps.slide
+    %div
+      %section
+        %header
+          %h2
+            Firefox OS Apps
+        %ul
+          %li Hosted App = Web app + Manifest
+          %li Packaged App = .zip x (tài nguyên tĩnh + Manifest)
+          %li HTML5 App = Hosted App + Packaged App
+        %footer.notes
+          Show App Demo & "how to hack" & About pros/cons
 
-    #firefox-os-components-detail.slide.cover.w
-      %div
-        %section
-          %img.middle{:alt => "Gonk, Gecko and Gaia", :src => "pictures/componentsflame.jpg"}
-            %small.credits
-              %a{:href => "http://www.flickr.com/photos/alesadam/3869366195/"} Photo by Alesa Dam
-          %footer.notes
-            Firefox OS is build with three components:
-            Gonk is the Linux layer talking to the hardware (the same Android uses)
-            Gecko is the rendering and JavaScript engine (same as Firefox) and
-            Gaia is the interface - everything you see - written in HTML5
+  #marketplace.slide
+    %div
+      %section
+        %header
+          %h2
+            Firefox Marketplace
+        %img.right{:src => "pictures/apps-firefox-hero.png"}
+        %footer.notes
 
-    #hardware-lockout.slide.cover.w
-      %div
-        %section
-          %header
-            %h2
-              Rào cản phần cứng
-          %img.middle{:alt => "Rào cản phần cứng", :src => "pictures/lockout.jpg"}  
-            %small.credits
-              %a{:href => "http://www.flickr.com/photos/old_sarge/100926333/"} Photo by Doug Geisler
-          %footer.notes
+  #appstore-decentralized.slide
+    %div
+      %section
+        %header
+          %h2
+            App Store: mô hình phân tán
+        %img.right{:src => "pictures/apps-firefox-hero.png"}
+        %ul
+          %li Không giới hạn trong Mozilla/Firefox OS
+          %li Receipt Protocol
+          %li mozApp.install()
+        %footer.notes
 
-    #wepapis.slide
-      %div
-        %section
-          %header
-            %h2
-              Web Api
-          %img.middle{:alt => "Phần cứng, Web API và trạng thái hiện tại", :src => "pictures/hardware-blowup.png"}
-          %p.demourl
-            %a{:href => "http://arewemobileyet.com"} http://arewemobileyet.com
-          %footer.notes
+  #webpayment-payswarm.slide
+    %div
+      %section
+        %header
+          %h2
+            Web Payment
+        %ul
+          %li Tương thích chuẩn mở (eg: mozPay() API)
+          %li Phân tán (eg: Persona)
+        %img.right{:src => "pictures/payswarm-title.png"}
+        %footer.notes
+          
+  #more-info.slide
+    %div
+      %section
+        %header
+          %h2 Thông tin thêm
+        %ul.longlist
+          %li
+            %strong Follow
+            %a{:href => "http://twitter.com/Boot2Gecko"} @Boot2Gecko
+            và
+            %a{:href => "http://twitter.com/mozhacks"} @mozhacks
+            trên Twitter
+          %li
+            %strong> Platform mailing list
+            \:
+            %a{:href => "http://groups.google.com/group/mozilla.dev.platform"} http://groups.google.com/group/mozilla.dev.platform
+          %li
+            %strong> Kênh IRC
+            \: irc.mozilla.org kênh #B2G
+          %li
+            %strong> B2G Repo
+            \:
+            %a{:href => "https://github.com/mozilla-b2g/B2G"} https://github.com/mozilla-b2g/B2G
+          %li
+            %strong> B2G Architecture
+            \:
+            %a{:href => "https://wiki.mozilla.org/B2G/Architecture"} https://wiki.mozilla.org/B2G/Architecture
+          %li
+            %strong> Gaia Repo
+            \:
+            %a{:href => "https://github.com/mozilla-b2g/gaia"} https://github.com/mozilla-b2g/gaia
+          %li
+            %strong> Developer Docs
+            \:
+            %a{:href => "https://developer.mozilla.org/en/Mozilla/Boot_to_Gecko"} https://developer.mozilla.org/en/Mozilla/Boot_to_Gecko
+          %li
+            %strong> Web API Docs
+            \:
+            %a{:href => "https://wiki.mozilla.org/WebAPI"} https://wiki.mozilla.org/WebAPI
+        %footer.notes
+          There are many ways to keep up to date with Firefox OS/Boot2Gecko.
+          Here are the most important ones.
 
-    #openwebdevice.slide
-      %div
-        %section
-          %header
-            %h2
-              Open Web Device
-          %img.middle{:alt => "", :src => "pictures/openwebdevice.jpg"}
-          %p.demourl
-            %a{:href => "http://openwebdevice.com"} http://openwebdevice.com
-          %footer.notes    
-
-    #keon.slide
-      %div
-        %section
-          %header
-            %h2
-              Keon:
-              %br Thiết bị chạy Firefox OS đầu tiên
-          %center   
-            %img{:width => "70%", :alt => "", :src => "pictures/keon.png"}
-          %footer.notes
-              
-    #apps.slide
-      %div
-        %section
-          %header
-            %h2
-              Firefox OS Apps
-          %ul
-            %li Hosted App = Web app (đã có) + Manifest
-            %li Packaged App = .zip x (tài nguyên tĩnh + Manifest)
-            %li HTML5 App = Hosted App + Packaged App 
-          %footer.notes
-            Show App Demo & "how to hack" & About pros/cons
-
-    #marketplace.slide
-      %div
-        %section
-          %header
-            %h2
-              Firefox Marketplace: Mô hình mới
-          %img.middle{:alt => "", :src => "pictures/marketplace.jpg"}
-          %p.demourl
-            %a{:href => "http://www.mozilla.org/en-US/apps/"} http://www.mozilla.org/en-US/apps/
-          %footer.notes
-            Decentralize, PaySwarm, App Receipt ...  
-                            
-    #more-info.slide
-      %div
-        %section
-          %header
-            %h2 Thông tin thêm
-          %ul.longlist
-            %li
-              %strong Follow
-              %a{:href => "http://twitter.com/Boot2Gecko"} @Boot2Gecko
-              và
-              %a{:href => "http://twitter.com/mozhacks"} @mozhacks
-              trên Twitter
-            %li
-              %strong> Platform mailing list
-              \:
-              %a{:href => "http://groups.google.com/group/mozilla.dev.platform"} http://groups.google.com/group/mozilla.dev.platform
-            %li
-              %strong> Kênh IRC
-              \: irc.mozilla.org kênh #B2G
-            %li
-              %strong> B2G Repo
-              \:
-              %a{:href => "https://github.com/mozilla-b2g/B2G"} https://github.com/mozilla-b2g/B2G
-            %li
-              %strong> B2G Architecture
-              \:
-              %a{:href => "https://wiki.mozilla.org/B2G/Architecture"} https://wiki.mozilla.org/B2G/Architecture
-            %li
-              %strong> Gaia Repo
-              \:
-              %a{:href => "https://github.com/mozilla-b2g/gaia"} https://github.com/mozilla-b2g/gaia
-            %li
-              %strong> Developer Docs
-              \:
-              %a{:href => "https://developer.mozilla.org/en/Mozilla/Boot_to_Gecko"} https://developer.mozilla.org/en/Mozilla/Boot_to_Gecko
-            %li
-              %strong> Web API Docs
-              \:
-              %a{:href => "https://wiki.mozilla.org/WebAPI"} https://wiki.mozilla.org/WebAPI
-          %footer.notes
-            There are many ways to keep up to date with Firefox OS/Boot2Gecko.
-            Here are the most important ones.
-
-    #thanks.slide
-      %div
-        %section
-          %header
-            %h2 Xin chân thành cảm ơn!
-          %img.right{:alt => "Red panda (Firefox)", :src => "pictures/redpanda.jpg"}
-          %ul
-            %li
-              Bài trình chiếu:
-              %br
-                %a{:href => 'https://github.com/hainp/mobile-day-2013-hanoi'} https://github.com/hainp/mobile-day-2013-hanoi
-    /
-      To hide progress bar from entire presentation
-      just remove “progress” element.
-    .progress
-      %div
-    %script{:src => "scripts/script.js"}
-    / Copyright © 2010–2012 Vadim Makeev — pepelsbey.net
+  #thanks.slide
+    %div
+      %section
+        %header
+          %h2 Xin chân thành cảm ơn!
+        %img.right{:alt => "Red panda (Firefox)", :src => "pictures/redpanda.jpg"}
+        %ul
+          %li
+            Bài trình chiếu:
+            %br
+              %a{:href => 'https://github.com/hainp/mobile-day-2013-hanoi'} https://github.com/hainp/mobile-day-2013-hanoi
+  /
+    To hide progress bar from entire presentation
+    just remove “progress” element.
+  .progress
+    %div
+  %script{:src => "scripts/script.js"}
+  / Copyright © 2010–2012 Vadim Makeev — pepelsbey.net
