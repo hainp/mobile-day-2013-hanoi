@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-ls## How to use
+Presentation at Vietnam Mobile Day 2013 in Hanoi; about Firefox OS and its ecosystem.
+
+## How to use
 
 * Press `Esc` to exit presentation mode
 
@@ -20,9 +21,3 @@ Only latest stable versions of mentioned browsers are supported.
 * [Flash -> HTML5](http://batsuev.com/bif2011/)
 
 Licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](shower/wiki/License-En) for details.
-=======
-mobile-day-2013-hanoi
-=====================
-
-Presentation at Vietnam Mobile Day 2013 in Hanoi; about Firefox OS and its ecosystem.
->>>>>>> origin/master
