@@ -33,20 +33,6 @@
               Nguyễn Phan Hải
               %br Vietnam Mobile Day @ Hà Nội @ 2013
 
-    #somelinks.slide
-      %div
-        %section
-          %header
-            %h2 Liên kết
-          %ul
-            %li
-              Bài trình chiếu:
-              %br
-                %a{:href => 'https://github.com/hainp/mobile-day-2013-hanoi'} https://github.com/hainp/mobile-day-2013-hanoi
-            %li
-              Tham gia với Mozilla:
-              %a{:href => 'http://goo.gl/rWmz9'} http://goo.gl/rWmz9
-
     #intro.slide
       %div
         %section
@@ -133,6 +119,7 @@
             %li Tìm kiếm app bằng nhiều phương tiện
             %li Quản lý App receipt dễ dàng, thuận tiện
           %footer.notes
+            What's App Receipt
 
   #firefoxos-developers-why.slide
     %div
@@ -144,7 +131,7 @@
           %li App: code một lần, chạy "khắp nơi"
           %li Submit và quản lý app dễ dàng
           %li Có công cụ phát triển tốt
-          %li Tự do phát triền không bị cản trở          
+          %li Tự do phát triển không bị cản trở          
         %footer.notes           
           
   #firefoxos-intro.shout.slide
@@ -264,9 +251,11 @@
           %h2
             Web Payment
         %ul
-          %li Tương thích chuẩn mở (eg: mozPay() API)
-          %li Phân tán (eg: Persona)
+          %li Tương thích chuẩn mở
+          %li Phân tán
         %img.right{:src => "pictures/payswarm-title.png"}
+        %p.demourl
+          %a{:href => "http://payswarm.com"} http://payswarm.com
         %footer.notes
           
   #more-info.slide
@@ -317,16 +306,20 @@
       %section
         %header
           %h2 Xin chân thành cảm ơn!
-        %img.right{:alt => "Red panda (Firefox)", :src => "pictures/redpanda.jpg"}
-        %ul
+        %figure.frame.middle.swing
+          %img{:width => "600px", :alt => "Hipptenuse", :src => "pictures/hippotenuse.jpg"}
+        %ul.oneline.demourl
           %li
-            Bài trình chiếu:
-            %br
-              %a{:href => 'https://github.com/hainp/mobile-day-2013-hanoi'} https://github.com/hainp/mobile-day-2013-hanoi
+            Nguyễn Phan Hải
+          %li
+            %a{:href => "https://twitter.com/hai_np"} @hai_np
+          %li
+            %a{:href => 'http://goo.gl/JpFRz'} http://goo.gl/JpFRz
+        %footer.notes
   /
     To hide progress bar from entire presentation
     just remove “progress” element.
-  .progress
-    %div
+  /.progress
+  /  %div
   %script{:src => "scripts/script.js"}
   / Copyright © 2010–2012 Vadim Makeev — pepelsbey.net
